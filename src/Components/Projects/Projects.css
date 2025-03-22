@@ -1,0 +1,30 @@
+@import  "tailwindcss";
+
+body {
+  @apply bg-gray-100 text-black dark:bg-gray-900 dark:text-white;
+}
+
+
+.btn {
+  @apply px-4 py-2 rounded text-white transition duration-300;
+}
+
+.btn-primary {
+  @apply bg-blue-500 hover:bg-blue-600;
+}
+
+.btn-secondary {
+  @apply bg-gray-500 hover:bg-gray-600;
+}
+
+.container {
+  @apply p-6 max-w-5xl mx-auto grid items-center justify-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1;
+}
+
+.card {
+  @apply bg-white lg:flex lg:flex-row p-6 m-3 rounded-lg shadow-md dark:bg-gray-800 dark:text-white;
+}
+
+.img-src {
+  @apply sm:h-48   lg:h-64 md:h-64 rounded-2xl; 
+}

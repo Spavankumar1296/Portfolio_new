@@ -28,3 +28,11 @@ body {
 .img-src {
   @apply sm:h-48   lg:h-64 md:h-64 rounded-2xl; 
 }
+
+.buttons{
+  @apply px-1 py-1 rounded font-bold text-black transition duration-300 ;
+}
+
+.btn-pro{
+  @apply px-4 py-2 rounded sm:text-sm  text-white transition duration-300 bg-blue-500 hover:bg-blue-600 m-1;
+}

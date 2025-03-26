@@ -49,7 +49,8 @@ const Projects = () => {
   const [selectedProjects, setSelectedProjects] = useState(projects);
 
   return (
-    <div className="h-auto w-screen">
+    <section id='projects'>
+      <div className="h-auto w-screen">
       <div className="flex flex-col md:flex-row lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 m-3 justify-center">
         <button className="buttons" onClick={() => setSelectedProjects(projects)}>
            WEB PROJECTS
@@ -79,6 +80,7 @@ const Projects = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 };
 

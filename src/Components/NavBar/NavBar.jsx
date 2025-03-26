@@ -76,16 +76,16 @@ const Navbar = () => {
                   About
                 </a>
                 <a
-                  href="#"
+                  href="#projects"
                   className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-blue-300 hover:text-black"
                 >
                   Projects
                 </a>
                 <a
-                  href="#"
+                  href="#contact"
                   className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-blue-300 hover:text-black"
                 >
-                  Calendar
+                  Contact Us
                 </a>
               </div>
             </div>

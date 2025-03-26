@@ -4,7 +4,7 @@ import TypeEffect from './TypeEffect';
 
 const About = () => {
   return (
-    <section className='lg:h-screen w-screen grid lg:grid-cols-2 gap-6 items-center justify-between h-100% w-100% lg:p-8 bg-white dark:bg-black'>
+    <section id="section" className='lg:h-screen w-screen grid lg:grid-cols-2 gap-6 items-center justify-between h-100% w-100% lg:p-8 bg-white dark:bg-black'>
       <div className='text-center lg:text-left p-10 lg:p-6 mt-20'>
         <h1 className='font-mono text-2xl text-start lg:text-3xl dark:text-white mb-4'>
           Hello, I'm <TypeEffect />

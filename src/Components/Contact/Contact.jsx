@@ -64,8 +64,7 @@ const Contact = () => {
           <p className='text-sm sm:text-base break-all'>pavankumarseepana1210@gmail.com</p>
         </div>
       </div>
-      
-      {/* Contact Form */}
+    
       <div className='w-full lg:w-1/2 px-4 sm:px-0'>
         <form onSubmit={onSubmit} className="w-full max-w-md mx-auto lg:mx-0">
           <div className="grid grid-cols-1 gap-6">

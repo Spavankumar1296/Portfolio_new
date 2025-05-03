@@ -31,7 +31,7 @@ const About = () => {
           </a>
           <a
             className="font-mono text-base lg:text-xl border-2 border-yellow-500 text-yellow-500 px-6 py-2 rounded-lg hover:bg-yellow-600 hover:text-white transition duration-300 dark:border-yellow-400 dark:text-yellow-400 dark:hover:bg-yellow-500 dark:hover:text-white"
-            href="https://leetcode.com/u/Spavankumar_1_2_9_6/"
+            href="https://leetcode.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
